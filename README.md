@@ -1,2 +1,2 @@
-# crMonsterServer
+# CRMonsterServer
 server implemented by nest.js
