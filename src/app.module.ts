@@ -3,7 +3,7 @@ import { AppController } from './app.controller';
 import {MongooseModule} from "@nestjs/mongoose";
 
 @Module({
-  imports: [MongooseModule.forRoot('mongodb://localhost/nest')],
+  imports: [MongooseModule.forRoot('mongodb://localhost/')],
   controllers: [AppController],
   components: [],
 })
